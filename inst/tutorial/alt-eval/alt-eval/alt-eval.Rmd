@@ -1,0 +1,16 @@
+---
+title: "Tutorial"
+output: learnr::tutorial
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+# Comment out the following to use the default: learnr::evaluate_exercise
+options(learnr.alt.evaluator = "learnrAlt::trivial_evaluator")
+```
+
+```{r two-plus-two, exercise=TRUE}
+2 + 2
+```
+
